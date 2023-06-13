@@ -1,0 +1,641 @@
+@media only screen and (min-width: 600px) {
+
+
+    header {
+        height: 70px;
+        width: 100%;
+        background-color: #F4EEE6;
+        top: 0;
+        position: relative;
+    }
+
+    /* NAVIGATIONSBAR DESKTOP START */
+    /* Navbar container */
+    .navbar {
+        background-color: #457353;
+        color: white;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: 80;
+        position: absolute;
+    }
+
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left: 40px;
+        margin-right: 40px;
+        z-index: 80;
+    }
+
+    /* The dropdown container */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+        margin-left: 40px;
+        margin-right: 40px;
+        z-index: 80;
+    }
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 40px;
+        margin-right: 40px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 10px;
+        background-color: inherit;
+        font-family: inherit;
+        /* Important for vertical align on mobile phones */
+        margin: 0;
+        /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        text-decoration: underline;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 60%;
+        height: 600px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 0;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: left;
+        color: black;
+        padding: 0;
+        text-decoration: none;
+        text-align: left;
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .nav-img {
+        width: 20%;
+        float: left;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .drop-content-1 {
+        width: 32%;
+        float: left;
+        text-align: left;
+        border-right: solid 1px black;
+        margin-top: 20px;
+    }
+
+
+    .subkat-container {
+        width: 80%;
+    }
+
+    .subkat-container a {
+        font-size: 14px;
+        color: grey;
+        padding: 2px;
+        text-decoration: underline;
+    }
+
+    .drop-content-2 {
+        width: 32%;
+        float: left;
+        text-align: left;
+        border-right: solid 1px black;
+        margin-top: 20px;
+    }
+
+    .drop-content-3 {
+        width: 32%;
+        float: left;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .drop-content-4 {
+        width: 32%;
+        float: left;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+
+
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Burger Menu Start - IKKE I DESKTOP */
+    .menuItem {
+        display: none;
+    }
+
+
+    button.hamburger {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .closeIcon {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .showMenu {
+        display: none;
+    }
+
+    /* Burger Menu Slut */
+
+
+    body {
+        background-color: #457353;
+        font-family: 'Avenir Next';
+        overflow-x: hidden;
+    }
+
+
+    video {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: auto;
+        padding: 0;
+
+    }
+
+    .videobg {
+        background-image: url(../Assets/Images/textureherovid.svg);
+    }
+
+    .logo {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .logo img {
+        margin-top: 15px;
+    }
+
+    .ikoner-levering {
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+        background-color: #F4EEE6;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .ikoner img {
+        padding: 20px;
+        width: 100%;
+        height: 200px;
+    }
+
+
+    /* UNIVERS FORSIDE START */
+    .univers-container {
+        background-image: url(../Assets/Images/textureforside1.svg);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .univers1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 120px;
+
+    }
+
+    .univers2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .univers3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 120px;
+    }
+
+    /*BILLEDMENU MOBIL (FJERNET FRA DESKTOP)*/
+
+    .billedmenu-container {
+        display: none;
+    }
+
+    .billedmenu {
+        display: none;
+    }
+
+    /* Blogindlæg Forside DEsktop Start */
+
+
+    .blogbanner-container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .banner-center {
+        position: absolute;
+        top: 60px;
+        left: 450px;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: "Avenir";
+    }
+
+    .blog-banner-link {
+        color: white
+    }
+
+    .blog-banner-link:hover {
+        text-decoration: underline;
+    }
+
+    .blogbanner {
+        width: 100%;
+    }
+
+    .deskblog-container {
+        display: flex;
+        justify-content: center;
+        background-image: url(../Assets/Images/textureherovid.svg);
+        height: auto;
+    }
+
+    .deskblogpost {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .deskblogpost img {
+        width: 450px;
+        height: 300px;
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+
+    .deskblogcap {
+        background-color: #F4EEE6;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        margin-top: 0;
+        height: 50px;
+        margin-bottom: 25px;
+        padding: 10px;
+        width: 350px;
+        margin-left: 40px;
+        font-weight: 600;
+    }
+
+
+    /* Blog Mobil forside*/
+
+
+    .blog-title {
+        display: none;
+    }
+
+    .blog-title h2 {
+        text-decoration: none;
+        margin: 5px;
+    }
+
+
+    .blogcontainer {
+        display: none;
+    }
+
+
+    /* Nyheder Start */
+
+
+    .nyheder-container {
+        background-color: white;
+        border: solid 3px #632B66;
+        height: 280px;
+        float: left;
+    }
+
+    .nyhedfigur-container {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .nyhedfigur img {
+        width: 100%;
+        height: 120px;
+        margin-top: 10px;
+        vertical-align: top;
+        border-right: solid 1px #1B5793;
+    }
+
+    .nyhednavn {
+        text-align: center;
+        font-size: 12px;
+        color: #1B5793;
+        font-weight: 500;
+    }
+
+    .nyhed-title {
+        font-weight: 600;
+        color: #1B5793;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .nyhedpris {
+        font-size: 20px;
+        color: #632B66;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .nyhedsknap-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+
+    .nyhedkøbknap {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        background-color: #1B5793;
+        border: 0;
+        padding: 7px;
+        width: 100px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Brands Forside Start */
+
+    .brandsbillededesk {
+        display: flex;
+        justify-content: center;
+        background-image: url(../Assets/Images/textureherovid.svg);
+    }
+
+    .brandsbillededesk img {
+        width: 80%;
+        margin: 20px;
+    }
+
+
+    .brands-title {
+        display: none;
+    }
+
+    .brandscollection {
+        display: none;
+    }
+
+    /* Brands forside slut */
+
+    /*Trustpilot forside start */
+
+    .trustpilot-container {
+        height: auto;
+        background-color: #F4EEE6;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .truspilot-left {
+        float: left;
+        width: 50%;
+        margin: 10px;
+    }
+
+    .trustpilot-left h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .trustpilot-left p {
+        font-size: 12px;
+    }
+
+
+    .trustpilot-left p {
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    #trustpilotstars {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    #trustpilotlogo {
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    .trustpilot-left a {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .trustpilot-right {
+        float: right;
+        width: 50%;
+        margin: 5px;
+    }
+
+    /* TrustPilot Karusel */
+
+    .carousel {
+        position: relative;
+    }
+
+    .carousel__item {
+        height: 200px;
+        background: #F4EEE6;
+        padding: 1em;
+        font-size: 10px;
+        color: black;
+        display: none;
+        overflow: hidden;
+
+    }
+
+    .carousel__item h4 {
+        font-size: 11px;
+    }
+
+    .anmelder {
+        color: rgb(88, 88, 88);
+    }
+
+    .carousel__item p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel__item img {
+        width: 50%;
+        margin: 0;
+    }
+
+    .carousel__item--selected {
+        display: block;
+    }
+
+    .carousel__nav {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .carousel__button {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        background: rgba(67, 4, 86, 0.2);
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .carousel__button--selected {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Nyhedsbrev Forside start */
+
+    .nyhedsbrev {
+        display: none;
+    }
+
+    .nyhedsbrevdesk {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nyhedsbrevdesk img {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+
+
+    /* Footer */
+
+    footer {
+        top: 0;
+        bottom: 0%;
+        height: 200px;
+        background-color: #F4EEE6;
+    }
+
+    .footer-left {
+        width: 48%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .footer-left img {
+        width: 50%;
+    }
+
+    .footer-left a {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .gmap {
+        border: none;
+        width: 100%;
+    }
+
+    address {
+        font-style: normal;
+    }
+
+
+    .footer-right {
+        width: 48%;
+        float: right;
+        margin-left: 5px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+    .footer-right a {
+        color: black;
+    }
+
+
+    .footer-right h4 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .footer-right p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+
+}

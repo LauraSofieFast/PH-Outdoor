@@ -1,0 +1,513 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Mobil Style */
+@media only screen and (max-width: 600px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        height: 70px;
+        width: 100%;
+        background-color: #F4EEE6;
+        position: fixed;
+    }
+
+    .blogbanner-container {
+        display: none;
+    }
+
+    .deskblog-container {
+        display: none;
+    }
+
+    .blogfigur-desk {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .blogbanner {
+        display: none;
+    }
+
+    .brandsbillededesk {
+        display: none;
+    }
+
+    /* Burger Menu Start */
+    .menuItem {
+        display: block;
+        margin: 2rem 4rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+
+    .menuItem:hover {
+        text-decoration: underline;
+    }
+
+    button.hamburger {
+        border: 0px;
+        background: none;
+    }
+
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        left: 1rem;
+        padding: 4px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .closeIcon {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background-color: #00000080;
+        color: white;
+        list-style: none;
+        padding-top: 4rem;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+    }
+
+    /* Burger Menu Slut */
+
+
+    body {
+        background-color: #457353;
+        font-family: 'Avenir Next';
+        overflow-x: hidden;
+    }
+
+
+    video {
+        height: 220px;
+        margin-top: 60px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        margin-top: 15px;
+    }
+
+    .ikoner-levering {
+        height: 130px;
+        width: 100%;
+        margin-top: 0;
+        background-color: #F4EEE6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ikoner img {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+
+    .univers-container {
+        background-image: url(../Assets/Images/textureforside1.svg);
+    }
+
+    .univers1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .univers2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .univers3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .billedmenu-container {
+        background-image: url(../Assets/Images/textureforside1.svg);
+    }
+
+    .billedmenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    /* Blogindlæg Forside Start */
+    .blog-title {
+        font-weight: 800;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-title h2 {
+        text-decoration: underline;
+        margin: 5px;
+    }
+
+    .blogcontainer {
+        height: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blogfigur {
+        display: inline-block;
+        margin: 10px auto;
+    }
+
+    .blogfigur img {
+        width: 195px;
+        height: 120px;
+        margin-top: 10px;
+        vertical-align: top;
+    }
+
+    .blogcap {
+        text-align: center;
+        color: #632B66;
+        background-color: #F4EEE6;
+        font-size: 10px;
+        font-weight: 600;
+        margin: 20px;
+        margin-top: 0;
+    }
+
+    /* Nyheder Start */
+
+
+    .nyheder-container {
+        background-color: white;
+        border: solid 3px #632B66;
+        height: 280px;
+    }
+
+    .nyhedfigur-container {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .nyhedfigur img {
+        width: 100%;
+        height: 120px;
+        margin-top: 10px;
+        vertical-align: top;
+        border-right: solid 1px #1B5793;
+    }
+
+    .nyhednavn {
+        text-align: center;
+        font-size: 12px;
+        color: #1B5793;
+        font-weight: 500;
+    }
+
+    .nyhed-title {
+        font-weight: 600;
+        color: #1B5793;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .nyhedpris {
+        font-size: 20px;
+        color: #632B66;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .nyhedsknap-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+    }
+
+    .nyhedkøbknap {
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        background-color: #1B5793;
+        border: 0;
+        padding: 7px;
+        width: 100px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Brands Forside Start */
+
+    .brands-title {
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .brandscollection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Brands forside slut */
+
+    /*Trustpilot forside start */
+
+    .trustpilot-container {
+        height: auto;
+        background-color: #F4EEE6;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .truspilot-left {
+        float: left;
+        width: 50%;
+        margin: 10px;
+    }
+
+    .trustpilot-left h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .trustpilot-left p {
+        font-size: 12px;
+    }
+
+
+    .trustpilot-left p {
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    #trustpilotstars {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    #trustpilotlogo {
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    .trustpilot-left a {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .trustpilot-right {
+        float: right;
+        width: 50%;
+        margin: 5px;
+    }
+
+    /* TrustPilot Karusel */
+
+    .carousel {
+        position: relative;
+    }
+
+    .carousel__item {
+        height: 200px;
+        background: #F4EEE6;
+        padding: 1em;
+        font-size: 10px;
+        color: black;
+        display: none;
+        overflow: hidden;
+
+    }
+
+    .carousel__item h4 {
+        font-size: 11px;
+    }
+
+    .anmelder {
+        color: rgb(88, 88, 88);
+    }
+
+    .carousel__item p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel__item img {
+        width: 50%;
+        margin: 0;
+    }
+
+    .carousel__item--selected {
+        display: block;
+    }
+
+    .carousel__nav {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .carousel__button {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        background: rgba(67, 4, 86, 0.2);
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .carousel__button--selected {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    /* Nyhedsbrev Forside start */
+
+    .nyhedsbrev {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .nyhedsbrev img {
+        width: 100%;
+    }
+
+    .nyhedsbrevdesk {
+        display: none;
+    }
+
+    .nyhedsbrev-knap {
+        text-align: center;
+        background-color: white;
+        color: #632B66;
+        position: absolute;
+        border: none;
+        top: 75%;
+        left: 35%;
+        width: 130px;
+        padding: 5px;
+        font-weight: 600;
+
+    }
+
+
+    /* Footer */
+
+    footer {
+        bottom: 0%;
+        height: 300px;
+        background-color: #F4EEE6;
+    }
+
+    .footer-left {
+        width: 48%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .footer-left img {
+        width: 80%;
+    }
+
+    .footer-left a {
+        text-decoration: underline;
+        color: black;
+    }
+
+    .gmap {
+        border: none;
+        width: 100%;
+    }
+
+    address {
+        font-style: normal;
+    }
+
+
+    .footer-right {
+        width: 48%;
+        float: right;
+        margin-left: 5px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+    .footer-right a {
+        color: black;
+    }
+
+
+    .footer-right h4 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .footer-right p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+
+
+
+
+}
